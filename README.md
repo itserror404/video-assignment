@@ -1,12 +1,12 @@
 # VID_E_OH!!!
 ### Group Members: Ziyad, Yunho, Maimuna, Bhavicka
-## Project Name: Falcon News
+## Project Name: Falcons News
 
 ## Project Description: 
 ### What is it?
 The project is a parody of a news channel covering a mock new NYUAD policy.
 ### Overall Concept and Theme
-We wanted to go for the tone of The Onion and apply it to a news channel such as Fox News, so we created our own Falcon News Channel. There would be a reporter in a studio covering a new breaking news which most NYUAD students would find relevant. In between, the news channel will show you a map of campus which will allow you to watch 3 students' interviews, and once they are done you can go back to the studio.
+We wanted to go for the tone of The Onion and apply it to a news channel such as Fox News, so we created our own Falcons News Channel. There would be a reporter in a studio covering a new breaking news which most NYUAD students would find relevant. In between, the news channel will show you a map of campus which will allow you to watch 3 students' interviews, and once they are done you can go back to the studio.
 ### Desired Experience
 Through the whole experience, we wanted the user to get some laughs at both the absurdity of the parody but also the familiarity of it. We wanted to mock both news channels and some of the new policies from NYUAD we are prone to expecting at this point.
 ## Process: 
