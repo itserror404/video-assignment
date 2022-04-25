@@ -1,0 +1,129 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+/*   padding: 0; */
+  background-image: linear-gradient(to bottom right, #f2e6ff, #b300b3);
+}
+
+/* #f2d9f2
+#bf40bf */
+
+@font-face {
+  font-family: logoFont;
+  src:url("/fonts/Wendelin-Fett.ttf");
+}
+
+.header {
+  background-color: #7b219f; 
+  font-family: logoFont;
+  font-size: 200%;
+  background-size: cover;
+  position: relative;
+  padding: 1%;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7b219f; 
+  font-family: logoFont;
+  font-size: 80%;
+/*   background-size: cover;
+  position: relative; */
+  padding: 1%;
+  text-align: center;
+  color: white;
+}
+
+/* h5 {
+  margin: 0.5;
+} */
+
+.column{
+  float: left; 
+/*   padding: 10px; */
+  /*height: 70%;*/
+}
+
+.c1{
+  width: 20%;
+background-color: rgb(145, 145, 145, 0.5); 
+  
+}
+
+/* #FBD6D2 */
+
+.c2{
+  width: 80%;
+/*   height: 50%; */
+  background-color: #450e59;
+}
+
+a:link{
+  color: rgb(0, 0, 0);
+}
+#headline1:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+#headline2:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* .c3{
+  width: 20%;
+  background-color: #d9cafe;
+} */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.breaking-news {
+  display: block;
+  text-align: center;
+}
+
+.videoc{
+/*   width:100% ; */
+/*   height: 75vh; */
+  width: 60vw;
+  display: block;
+  margin: auto;
+/*   margin-right: 0; */
+  
+}
+
+#map {
+  display: none;
+/*   width: 70vw; */
+}
+
+#map img {
+/*   width: 150%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*   object-fit: cover; */
+/*   width: 100%; */
+}
+
+.links{
+  padding: 1%;
+  color: #8d8600;
+  size: 10;
+  
+}
+
+
+
+
