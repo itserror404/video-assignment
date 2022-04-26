@@ -4,16 +4,13 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Falcon-News</title>
+  <meta name="viewport" content="width=device-width"> <!-- our website including all elements resizes with width -->   
+  <title>Falcons-News</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
 
   
 </head>
-
-
-
 
   <div class="header">
   <a><img src="logo.jpg" width=50 height=50></a>
@@ -22,13 +19,12 @@
   </div>
 
   
-
 <body>
 <pre></pre>
   <div class="row">
-  <div class= "column c1"">
+  <div class= "column c1""> <!-- dummy articles with a bit of interactivity -->   
   <pre>  </pre>
-    <center>
+    <center> 
       <a href="news.html">
     <div id="headline1"><img src="News1.jpg" width=90% height=25% padding=5%>
     <h5>
@@ -53,66 +49,34 @@
       
     <video class='videoc' id="news1" controls>
       
-    <source src="intro.mp4" type="video/mp4" >
-      
+    <source src="https://www.commlab.nyuadim.com/MangS22/bhavicka/intro.mp4" type="video/mp4" >
+      Your browser does not support the video tag.
    </video>
 <!--     </center> -->
   </div> 
 
 <div class="footer">
   <p>See anything newsworthy happening on campus? Reach out to us at fnc@nyu.edu! One of our eager reporters Yunho, Ziyad, Maimuna or Bhavicka will look into it!</p>
-  </div>
+</div>
   
   <div id="map">
-<!-- <img src="map-0.65.png" usemap="#image-map"> -->
-
-<!-- <map name="image-map">
-    <area alt="west" onclick="changeSource('movie.mp4')" coords="366,427,75" shape="circle">
-    <area  alt="c2" onclick="changeSource('movie.mp4')" coords="742,259,89" shape="circle">
-    <area  alt="central" onclick="changeSource('movie.mp4')" coords="745,434,73" shape="circle">
-    <area  alt="east" onclick="changeSource('movie.mp4')" coords="1170,370,80" shape="circle">
-</map> -->
 
     <img src="map-0.65.png" usemap="#image-map">
 
+ <!-- change source of video depending on coordinates that were clicked -->                                              
 <map name="image-map">
-    <area class="map-button" target="" alt="west" title="west" onclick="changeSource('interview3.mp4')" coords="239,280,95" shape="circle">
-    <area class="map-button" target="" alt="c2" title="c2" onclick="changeSource('outro.mp4')" coords="483,157,74" shape="circle">
-    <area class="map-button" target="" alt="east" title="east" onclick="changeSource('interview1.mp4')" coords="762,237,75" shape="circle">
-    <area class="map-button" target="" alt="central" title="central" onclick="changeSource('interview2.mp4')" coords="491,297,60" shape="circle">
+    <area class="map-button" target="" alt="west" title="west" onclick="changeSource('https://www.commlab.nyuadim.com/MangS22/bhavicka/interview3.mp4')" coords="239,280,95" shape="circle">
+    <area class="map-button" target="" alt="c2" title="c2" onclick="changeSource('https://www.commlab.nyuadim.com/MangS22/bhavicka/outro.mp4')" coords="483,157,74" shape="circle">
+    <area class="map-button" target="" alt="east" title="east" onclick="changeSource('https://www.commlab.nyuadim.com/MangS22/bhavicka/interview1.mp4')" coords="762,237,75" shape="circle">
+    <area class="map-button" target="" alt="central" title="central" onclick="changeSource('https://www.commlab.nyuadim.com/MangS22/bhavicka/interview2.mp4')" coords="491,297,60" shape="circle">
 </map>
   
   </div>
- 
 
-
-<!--   <div class= "column c3">
-<center>
-  <pre>   </pre>
-    <img src="img2.png" width="200" height="100">
-    <h5>
-      bla bla bla 
-      new news news
-      bla bla bla
-      news news news
-      bla bla bla
-      news news news
-    </h5>
-
-    <img src="img3.png" width="200" height="100">
-      bla bla bla
-      news news newsbla bla bla
-      news news news
-      bla bla bla
-      news news news
-</center>
-  </div> -->
-<!--   </div> -->
-  
-
-
+<!-- mapping resources -->   
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                                                                                  
   <script src="script.js"></script>
     
   
