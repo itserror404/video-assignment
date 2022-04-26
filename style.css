@@ -33,16 +33,10 @@ html, body {
   background-color: #7b219f; 
   font-family: logoFont;
   font-size: 80%;
-/*   background-size: cover;
-  position: relative; */
   padding: 1%;
   text-align: center;
   color: white;
 }
-
-/* h5 {
-  margin: 0.5;
-} */
 
 .column{
   float: left; 
@@ -56,8 +50,6 @@ background-color: rgb(145, 145, 145, 0.5);
   
 }
 
-/* #FBD6D2 */
-
 .c2{
   width: 80%;
 /*   height: 50%; */
@@ -67,6 +59,7 @@ background-color: rgb(145, 145, 145, 0.5);
 a:link{
   color: rgb(0, 0, 0);
 }
+
 #headline1:hover{
   background-color: rgb(255, 255, 255, 0.5);
 }
@@ -75,10 +68,10 @@ a:link{
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* .c3{
-  width: 20%;
-  background-color: #d9cafe;
-} */
+h3{
+  text-align:center;
+  font-size:150%;
+}
 
 .row:after {
   content: "";
