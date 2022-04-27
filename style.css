@@ -12,7 +12,7 @@ html, body {
 
 @font-face {
   font-family: logoFont;
-  src:url("/fonts/Wendelin-Fett.ttf");
+  src:url("fonts/Wendelin-Fett.ttf");
 }
 
 .header {
